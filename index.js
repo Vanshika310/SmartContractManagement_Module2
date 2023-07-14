@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CONNECTION TO METAMASK</title>
+    <title>LINKING TO METAMASK</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
     <style>
         body {
@@ -12,7 +12,7 @@
         button {
             background-color: rgb(108, 223, 63);
             font-size: 33px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'cursive';
         }
         button:hover {
             background-color: rgb(41, 194, 199);
@@ -20,11 +20,11 @@
     </style>
 </head>
 <body>
-	<button onclick="connectMetamask()">CONNECT TO METAMASK</button> <br>
+	<button onclick="connectMetamask()">LINK TO METAMASK</button> <br>
 	<p id="accountArea"></p>
-	<button onclick="connectContract()">CONNECT TO CONTRACT</button> <br>
+	<button onclick="connectContract()">CONNECT TO MY CONTRACT</button> <br>
 	<p id="contractArea"></p>
-	<button onclick="readContract()">GET DATA FROM CONTRACT</button> <br>
+	<button onclick="readContract()">READ DATA FROM CONTRACT</button> <br>
 	<p id="dataArea"></p>
 
 
