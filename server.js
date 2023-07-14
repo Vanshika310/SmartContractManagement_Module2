@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + "/index.html"));
 })
 
-const server = app.listen(5000);
+const server = app.listen(1725);
 const portNumber = server.address().port;
-console.log(`port is open on ${portNumber}`);
+console.log(`port is running on ${portNumber}`);
