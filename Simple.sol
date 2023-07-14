@@ -4,6 +4,6 @@ pragma solidity >=0.8.7;
 
 contract Simple {
     
-    string public myLOrd = "Kahna";
+    string public myLord = "Kahna";
 
 }
